@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.cst-font {
+    font-family: 'Dancing Script', cursive !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Barlow', sans-serif !important;
+    background-color: rgb(248, 236, 236);
+}
+
+h1,
+h2 {
+    font-family: 'Lobstter', cursive !important;
+}
+
+.headertop {
+    background-color: #212121;
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+.top-left {
+    display: flex;
+    margin: 0px;
+    align-items: center;
+    height: 100%;
+}
+
+.top-left a {
+    color: #fff;
+    margin: 0 10px;
+}
+
+.headertop i {
+    color: #d1c647;
+}
+
+.topRight {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.socialIcon {
+    margin-left: 15px;
+}
+
+.socialIcon a {
+    color: #fff;
+    margin: 5px;
+    font-size: 18px;
+}
+
+.headertop a {
+    color: #fff;
+}
+
+.headerNav li.nav-item .nav-link {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 10px;
+}
+
+.searchForm {
+    width: 50%;
+}
+
+.rightSide {
+    margin-left: 3rem;
+}
+
+.rightSide a {
+    display: inline-block;
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.2rem;
+
+}
+
+.headerNav a.navbar-brand {
+    color: #fff;
+    font-family: 'Lobster', cursive !important;
+    font-size: 2.5rem;
+}
+
+.headerNav {
+    padding: 20px 0;
+    background-color: #f9a825;
+}
+
+.all-products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.category {
+    text-align: center;
+}
+
+.product {
+    overflow: hidden;
+    background: #ffffff;
+    color: #21201e;
+    text-align: center;
+    width: 240px;
+    height: 400px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.product .product-title,
+.product .product-price {
+    font-size: 18px;
+}
+
+.product:hover img {
+    scale: 1.1;
+}
+
+.product:hover {
+    box-shadow: 5px 15px 25px #eeeeee;
+}
+
+.product img {
+    height: 200px;
+    margin: 1rem;
+    transition: all 0.3s;
+}
+
+.product a:link,
+.product a:visited {
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    background-color: green;
+    padding: 1.2rem 3rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    font-size: 14px;
+    transition: all 0.2s;
+}
+
+.product a:hover {
+    transform: scale(1.1);
+}
